@@ -1,7 +1,6 @@
-
 :root {
     --accent: #33B8BC;
-    --light-grey: #F3F3F3;
+    --light-grey: #ECECEC;
     --text: #333333;
 }
 
@@ -22,7 +21,6 @@ header {
 header p {
     max-width: 650px;
 }
-
 
 .tagline {
     color: var(--accent);
@@ -110,14 +108,13 @@ a:hover {
 
 
 .split-right {
-    background-color: white;
-    padding: 25px;
+    background-color: var(--light-grey);
+    padding: 30px;
     text-align: left;
     flex: 1;
     border: 1px solid #e5e5e5;
     box-sizing: border-box;
 }
-
 
 .split-right a {
     margin-right: 10px;

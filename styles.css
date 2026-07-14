@@ -1,11 +1,23 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin-top: 100px;
+    margin: 0;
+    color: #333333;
+    background-color: white;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: var(--accent);
+    width: 80%;
+    margin: 40px auto;
 }
 
 h1 {
-    color: #003366;
+    color: var(--accent);
+    font-size: 3rem;
+    margin-top: 80px;
 }
 
 button {
@@ -21,23 +33,33 @@ section {
 }
 
 h2 {
-    color: #003366;
+    color: var(--accent);
+    margin-top: 70px;
+    margin-bottom: 30px;
 }
 
 div {
-    border: 1px solid #ddd;
+    background-color: var(--light-grey);
+    border-left: 6px solid var(--accent);
     padding: 20px;
     margin: 20px auto;
-    width: 300px;
-    border-radius: 8px;
+    width: 650px;
+    text-align: left;
 }
 
 a {
-    color: #0078d4;
+    color: var(--accent);
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+:root {
+    --accent: #33B8BC;
+    --light-grey: #f3f3f3;
+    --mid-grey: #d9d9d9;
+    --text: #333333;
 }

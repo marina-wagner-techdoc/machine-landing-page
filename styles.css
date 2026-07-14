@@ -54,13 +54,20 @@ section {
     margin-top: 60px;
 }
 
-div {
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
     background-color: var(--light-grey);
     border-left: 4px solid var(--accent);
     padding: 25px;
-    margin: 25px auto;    
-    max-width: 700px;
-    width: 80%;
+    width: 280px;
     text-align: left;
 }
 

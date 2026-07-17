@@ -7,96 +7,38 @@ Examples of LinkedIn content created for an industrial technology company.
 
 ## About
 
-These examples demonstrate how technical products, company updates and industry-related topics can be communicated through social media.
+This showcase presents selected LinkedIn posts covering technical topics,
+product communication and company communication.
 
-The showcase includes technical communication, product communication and corporate communication content.
-
----
-
-## Example 1: Technical Topic Communication
-
-### What Are Hydrocyclones?
-
-Objective
-
-Explain a technical concept in a concise and accessible format for a professional audience.
-
-Screenshot
-
-[IMAGE]
-
-Skills Demonstrated
-
-- Technical Topic Simplification
-- Content Creation
-- Social Media Communication
+The examples demonstrate how complex information can be communicated in a clear and visually engaging format.
 
 ---
 
-## Example 2: Product Communication
+## Example 1: What Are Hydrocyclones?
 
-### Product Comparison
+A post introducing the basic principles and applications of hydrocyclones in an accessible format.
 
-Objective
-
-Present technical product differences through a visual comparison format.
-
-Screenshot
-
-[IMAGE]
-
-Skills Demonstrated
-
-- Product Communication
-- Visual Content Creation
-- Technical Communication
+![What Are Hydrocyclones?](assets/01-technical-topic-hydrocyclones.png)
 
 ---
 
-## Example 3: Corporate Communication
+## Example 2: Product Portfolio Overview
 
-### 30 Years of Pan-Technik
+An overview of different hydrocyclone solutions and their industrial applications.
 
-Objective
-
-Communicate a company milestone through visual and social media content.
-
-Screenshot
-
-[IMAGE]
-
-Skills Demonstrated
-
-- Corporate Communication
-- Visual Content Creation
-- Social Media Communication
+![Product Portfolio Overview](assetsones.png)
 
 ---
 
-## Example 4: Seasonal Communication
+## Example 3: Product Comparison
 
-### Holiday Greeting
-
-Objective
-
-Create seasonal company communication supporting visibility and audience engagement.
-
-Screenshot
-
-[IMAGE]
-
-Skills Demonstrated
-
-- Corporate Communication
-- Visual Content Creation
+A visual comparison supporting the selection of different hydrocyclone variants.
+![Product Comparison](assets/03-product-comparison-hydrocyclones.png)
 
 ---
 
-## Skills Demonstrated
+## Example 4: Holiday Greeting
 
-- Social Media Communication
-- Content Creation
-- Technical Topic Simplification
-- Product Communication
-- Corporate Communication
-- Visual Content Creation
+A seasonal post supporting company communication and visibility.
+
+![Holiday Greeting](assets/04-holiday-greeting.png)

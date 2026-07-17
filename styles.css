@@ -1,3 +1,4 @@
+
 :root {
     --accent: #3BB4B8;
     --light-grey: #F3F3F3;
@@ -7,9 +8,9 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    text-align: center;
     color: var(--text);
     background-color: white;
+    text-align: center;
 }
 
 header {
@@ -20,6 +21,12 @@ h1 {
     color: var(--accent);
     font-size: 3rem;
     margin: 0;
+}
+
+h2 {
+    color: var(--accent);
+    text-transform: uppercase;
+    margin: 50px 0 20px;
 }
 
 .tagline {
@@ -39,64 +46,26 @@ hr {
     margin: 0;
 }
 
-
-h2 {
-    color: var(--accent);
-    margin-top: 40px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-}
-
-h3 {
-    color: var(--accent);
-    margin-top: 0;
-}
-
-p {
-    max-width: 800px;
-    margin: 20px auto;
-    line-height: 1.6;
-}
-
-
-hr {
-    border: none;
-    height: 4px;
-    background-color: var(--accent);
-    width: 100%;
-    margin: 0;
-}
-
 section {
-    margin-top: 30px;
-    padding: 10px 0;
+    margin-bottom: 60px;
 }
 
-a {
-    display: inline-block;
-    border: 2px solid var(--accent);
-    color: white;
-    background-color: var(--accent);
-    padding: 10px 18px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-
-a:hover {
-    opacity: 0.9;
+.intro {
+    max-width: 900px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
 }
 
 .split-card {
     display: flex;
     max-width: 900px;
-    margin: 0 auto 12px auto;
+    margin: 12px auto;
 }
 
 .split-left {
     background-color: var(--accent);
     color: white;
-    width: 200px;
+    width: 220px;
     padding: 22px;
     font-weight: bold;
 
@@ -108,25 +77,97 @@ a:hover {
 
 .split-right {
     background-color: var(--light-grey);
-    padding: 30px;
-    text-align: left;
     flex: 1;
-    box-sizing: border-box;
+    padding: 22px;
+    text-align: left;
+    line-height: 1.6;
 }
 
-@media (max-width: 768px) {
+.split-right p {
+    margin-top: 0;
+}
 
-    h1 {
-        font-size: 3rem;
-    }
+.split-right a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: var(--accent);
+    font-weight: bold;
+}
 
-    .split-card {
+.split-right a:hover {
+    text-decoration: underline;
+}
+
+.search-box {
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid var(--accent);
+    box-sizing: border-box;
+    font-size: 1rem;
+    outline: none;
+}
+
+input:focus {
+    border-color: var(--accent);
+}
+
+.result-card {
+    display: flex;
+    max-width: 900px;
+    margin: 12px auto;
+    text-decoration: none;
+    color: inherit;
+}
+
+.result-card:hover {
+    opacity: 0.95;
+}
+
+.card-title {
+    background-color: var(--accent);
+    color: white;
+    width: 220px;
+    padding: 22px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-content {
+    background-color: var(--light-grey);
+    flex: 1;
+    padding: 22px;
+    text-align: left;
+}
+
+#search-results {
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+#results-heading {
+    display: none;
+}
+
+@media (max-width: 700px) {
+
+    .split-card,
+    .result-card {
         flex-direction: column;
     }
 
-    .split-left {
+    .split-left,
+    .card-title {
         width: auto;
     }
 
 }
-

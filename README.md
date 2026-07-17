@@ -1,18 +1,36 @@
-# Documentation Experience Portfolio
 
-A portfolio project exploring the intersection of technical communication, UX writing, information architecture and frontend development.
+# Digital Content & Communication Showcase
 
-## Purpose
 
-This project demonstrates:
+Selected examples demonstrating content creation, social media communication and digital content projects.
 
-- HTML and CSS fundamentals
-- Information architecture
-- Content design
-- UX writing principles
-- Portfolio presentation
-- GitHub Pages deployment
+This showcase complements my technical writing portfolio by highlighting communication projects beyond technical documentation.
 
-## Status
+---
 
-Work in progress
+## Featured Areas
+
+### Video Content
+
+Examples of product videos, promotional content and social media clips.
+
+### LinkedIn Communication
+
+Examples of company communication, social media content and audience-focused messaging.
+
+---
+
+## Skills Demonstrated
+
+- Content Creation
+- Digital Communication
+- Social Media Communication
+- Video Production
+- Content Strategy
+- Corporate Communication
+
+---
+
+## About
+
+This showcase demonstrates communication projects beyond technical documentation, including video content, social media communication and audience-focused messaging.
